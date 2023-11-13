@@ -59,7 +59,7 @@ const Home: NextPage = ({ images }: { images: ImageProps[] }) => {
 							Oscar Armando Luna
 						</h1>
 						<p className="max-w-[40ch] text-white/75 sm:max-w-[32ch]">
-							Front-end developer and lifelong art aficionado. <a href="https://oscarluna.dev">Web Portfolio</a>
+							Front-end Developer and Graphite Artist. <Link className="text-blue-500 relative" href="https://oscarluna.dev">Web Portfolio</Link>
 						</p>
 
 					</div>

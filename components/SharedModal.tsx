@@ -77,7 +77,7 @@ export default function SharedModal({
                   }/image/upload/c_scale,${navigation ? 'w_1280' : 'w_1920'}/${
                     currentImage.public_id
                   }.${currentImage.format}`}
-                  width={navigation ? 1280 : 1920}
+                  width={navigation ? 540 : 1920}
                   height={navigation ? 853 : 1280}
                   priority
                   alt="Next.js Conf image"
