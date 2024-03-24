@@ -21,7 +21,7 @@ const Home: NextPage = ({ currentPhoto }: { currentPhoto: ImageProps }) => {
 				<meta property="og:image" content={currentPhotoUrl} />
 				<meta name="twitter:image" content={currentPhotoUrl} />
 			</Head>
-			<main className="h-screen max-w-[1960px] p-4 mx-auto">
+			<main className="object-contain h-screen p-4 mx-auto max-w-screen">
 				<Carousel currentPhoto={currentPhoto} index={index} />
 			</main>
 		</>
