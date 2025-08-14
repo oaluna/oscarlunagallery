@@ -23,6 +23,14 @@ class MyDocument extends Document {
             content="Oscar Luna's Art Gallery"
           />
         </Head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8PRS26B2Y8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8PRS26B2Y8');
+</script>
         <body className="antialiased bg-black">
           <Main />
           <NextScript />
